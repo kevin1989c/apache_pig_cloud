@@ -1,0 +1,1733 @@
+19	922476	"	18309	How can I read the client's machine/computer name from the browser?	<p>How can I read the client's machine/computer name from the browser?<br>
+Is it possible using JavaScript and/or ASP.NET?</p>
+	99994
+26	1504160	"	116573	Android: Use a SWITCH statement with setOnClickListener/onClick for more than 1 button?	<p>Let's say I have a few buttons in a LinearLayout, 2 of them are:</p>
+
+<pre><code>mycards_button = ((Button)this.findViewById(R.id.Button_MyCards));
+exit_button = ((Button)this.findViewById(R.id.Button_Exit));
+</code></pre>
+
+<p>I register <code>setOnClickListener()</code> on both of them:</p>
+
+<pre><code>mycards_button.setOnClickListener(this);
+exit_button.setOnClickListener(this);
+</code></pre>
+
+<p>How do I make a SWITCH to differentiate between the two buttons within the Onclick ?</p>
+
+<pre><code>public void onClick(View v) {
+  switch(?????){
+    case ???:
+      /** Start a new Activity MyCards.java */
+      Intent intent = new Intent(this, MyCards.class);
+      this.startActivity(intent);
+      break;
+    case ???:
+      /** AlerDialog when click on Exit */
+      MyAlertDialog();
+      break;
+}
+</code></pre>
+	99990
+26	1504160	"	116573	Android: Use a SWITCH statement with setOnClickListener/onClick for more than 1 button?	<p>Let's say I have a few buttons in a LinearLayout, 2 of them are:</p>
+
+<pre><code>mycards_button = ((Button)this.findViewById(R.id.Button_MyCards));
+exit_button = ((Button)this.findViewById(R.id.Button_Exit));
+</code></pre>
+
+<p>I register <code>setOnClickListener()</code> on both of them:</p>
+
+<pre><code>mycards_button.setOnClickListener(this);
+exit_button.setOnClickListener(this);
+</code></pre>
+
+<p>How do I make a SWITCH to differentiate between the two buttons within the Onclick ?</p>
+
+<pre><code>public void onClick(View v) {
+  switch(?????){
+    case ???:
+      /** Start a new Activity MyCards.java */
+      Intent intent = new Intent(this, MyCards.class);
+      this.startActivity(intent);
+      break;
+    case ???:
+      /** AlerDialog when click on Exit */
+      MyAlertDialog();
+      break;
+}
+</code></pre>
+	99990
+26	1504160	"	116573	Android: Use a SWITCH statement with setOnClickListener/onClick for more than 1 button?	<p>Let's say I have a few buttons in a LinearLayout, 2 of them are:</p>
+
+<pre><code>mycards_button = ((Button)this.findViewById(R.id.Button_MyCards));
+exit_button = ((Button)this.findViewById(R.id.Button_Exit));
+</code></pre>
+
+<p>I register <code>setOnClickListener()</code> on both of them:</p>
+
+<pre><code>mycards_button.setOnClickListener(this);
+exit_button.setOnClickListener(this);
+</code></pre>
+
+<p>How do I make a SWITCH to differentiate between the two buttons within the Onclick ?</p>
+
+<pre><code>public void onClick(View v) {
+  switch(?????){
+    case ???:
+      /** Start a new Activity MyCards.java */
+      Intent intent = new Intent(this, MyCards.class);
+      this.startActivity(intent);
+      break;
+    case ???:
+      /** AlerDialog when click on Exit */
+      MyAlertDialog();
+      break;
+}
+</code></pre>
+	99990
+150	20591889	"	1926343	Site does not exist error for a2ensite	<p>I have <code>cmsplus.dev</code> under <code>/etc/apache2/sites-available</code> with the following code,</p>
+
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerAdmin master@server.com
+    ServerName www.cmsplus.dev
+    ServerAlias cmsplus.dev
+
+    DocumentRoot /var/www/cmsplus.dev/public
+
+    LogLevel warn
+    ErrorLog /var/www/cmsplus.dev/log/error.log
+    CustomLog /var/www/cmsplus.dev/log/access.log combined
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<p>Now when I use <code>sudo /usr/sbin/a2ensite cmsplus.dev</code>, I am getting the error,</p>
+
+<pre><code>ERROR: Site cmsplus.dev does not exist!
+</code></pre>
+
+<p>My webserver <code>Apache/2.4.6 (Ubuntu)</code></p>
+
+<p>How to solve this issue?</p>
+	99985
+29	1536739	user186249	"	Get a Windows Forms control by name in C#	<p>I have a ToolStripMenuItem called "myMenu". How can I access this like so:</p>
+
+<pre><code>/* Normally, I would do: */
+this.myMenu... etc.
+
+/* But how do I access it like this: */
+String name = myMenu;
+this.name...
+</code></pre>
+
+<p>This is because I am dynamically generating ToolStripMenuItems from an XML file and need to reference menuitems by their dynamically generated names.</p>
+	99985
+150	20591889	"	1926343	Site does not exist error for a2ensite	<p>I have <code>cmsplus.dev</code> under <code>/etc/apache2/sites-available</code> with the following code,</p>
+
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerAdmin master@server.com
+    ServerName www.cmsplus.dev
+    ServerAlias cmsplus.dev
+
+    DocumentRoot /var/www/cmsplus.dev/public
+
+    LogLevel warn
+    ErrorLog /var/www/cmsplus.dev/log/error.log
+    CustomLog /var/www/cmsplus.dev/log/access.log combined
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<p>Now when I use <code>sudo /usr/sbin/a2ensite cmsplus.dev</code>, I am getting the error,</p>
+
+<pre><code>ERROR: Site cmsplus.dev does not exist!
+</code></pre>
+
+<p>My webserver <code>Apache/2.4.6 (Ubuntu)</code></p>
+
+<p>How to solve this issue?</p>
+	99985
+29	1536739	user186249	"	Get a Windows Forms control by name in C#	<p>I have a ToolStripMenuItem called "myMenu". How can I access this like so:</p>
+
+<pre><code>/* Normally, I would do: */
+this.myMenu... etc.
+
+/* But how do I access it like this: */
+String name = myMenu;
+this.name...
+</code></pre>
+
+<p>This is because I am dynamically generating ToolStripMenuItems from an XML file and need to reference menuitems by their dynamically generated names.</p>
+	99985
+150	20591889	"	1926343	Site does not exist error for a2ensite	<p>I have <code>cmsplus.dev</code> under <code>/etc/apache2/sites-available</code> with the following code,</p>
+
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerAdmin master@server.com
+    ServerName www.cmsplus.dev
+    ServerAlias cmsplus.dev
+
+    DocumentRoot /var/www/cmsplus.dev/public
+
+    LogLevel warn
+    ErrorLog /var/www/cmsplus.dev/log/error.log
+    CustomLog /var/www/cmsplus.dev/log/access.log combined
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<p>Now when I use <code>sudo /usr/sbin/a2ensite cmsplus.dev</code>, I am getting the error,</p>
+
+<pre><code>ERROR: Site cmsplus.dev does not exist!
+</code></pre>
+
+<p>My webserver <code>Apache/2.4.6 (Ubuntu)</code></p>
+
+<p>How to solve this issue?</p>
+	99985
+29	1536739	user186249	"	Get a Windows Forms control by name in C#	<p>I have a ToolStripMenuItem called "myMenu". How can I access this like so:</p>
+
+<pre><code>/* Normally, I would do: */
+this.myMenu... etc.
+
+/* But how do I access it like this: */
+String name = myMenu;
+this.name...
+</code></pre>
+
+<p>This is because I am dynamically generating ToolStripMenuItems from an XML file and need to reference menuitems by their dynamically generated names.</p>
+	99985
+73	44383	Eldila	889	Reading Email using Pop3 in C#	<p>I am looking for a method of reading emails using Pop3 in C# 2.0. Currently, I am using code found in <a href="http://www.codeproject.com/KB/IP/Pop3MimeClient.aspx?fid=341657">CodeProject</a>. However, this solution is less than ideal. The biggest problem is that it doesn't support emails written in unicode.</p>
+	99983
+73	44383	Eldila	889	Reading Email using Pop3 in C#	<p>I am looking for a method of reading emails using Pop3 in C# 2.0. Currently, I am using code found in <a href="http://www.codeproject.com/KB/IP/Pop3MimeClient.aspx?fid=341657">CodeProject</a>. However, this solution is less than ideal. The biggest problem is that it doesn't support emails written in unicode.</p>
+	99983
+73	44383	Eldila	889	Reading Email using Pop3 in C#	<p>I am looking for a method of reading emails using Pop3 in C# 2.0. Currently, I am using code found in <a href="http://www.codeproject.com/KB/IP/Pop3MimeClient.aspx?fid=341657">CodeProject</a>. However, this solution is less than ideal. The biggest problem is that it doesn't support emails written in unicode.</p>
+	99983
+94	2897155	"	243443	Get cursor position (in characters) within a text Input field	<p>How could can I get the caret position from within an input field?</p>
+
+<p>I have seen a few bits and pieces on Google, but nothing bullet proof.</p>
+
+<p>Basically something like a jQuery plugin would be ideal so I could simply do</p>
+
+<pre><code>$("#myinput").caretPosition()
+</code></pre>
+	99979
+94	2897155	"	243443	Get cursor position (in characters) within a text Input field	<p>How could can I get the caret position from within an input field?</p>
+
+<p>I have seen a few bits and pieces on Google, but nothing bullet proof.</p>
+
+<p>Basically something like a jQuery plugin would be ideal so I could simply do</p>
+
+<pre><code>$("#myinput").caretPosition()
+</code></pre>
+	99979
+94	2897155	"	243443	Get cursor position (in characters) within a text Input field	<p>How could can I get the caret position from within an input field?</p>
+
+<p>I have seen a few bits and pieces on Google, but nothing bullet proof.</p>
+
+<p>Basically something like a jQuery plugin would be ideal so I could simply do</p>
+
+<pre><code>$("#myinput").caretPosition()
+</code></pre>
+	99979
+21	7347856	"	423620	How to convert a String into an ArrayList?	<p>I have a situation were I want to convert a string into an ArrayList. In my string, I can have an arbitrary number of words which I want added into an ArrayList object, e.g.:</p>
+
+<pre><code>String s = "a,b,c,d,e,.........";
+</code></pre>
+	99971
+21	7347856	"	423620	How to convert a String into an ArrayList?	<p>I have a situation were I want to convert a string into an ArrayList. In my string, I can have an arbitrary number of words which I want added into an ArrayList object, e.g.:</p>
+
+<pre><code>String s = "a,b,c,d,e,.........";
+</code></pre>
+	99971
+21	7347856	"	423620	How to convert a String into an ArrayList?	<p>I have a situation were I want to convert a string into an ArrayList. In my string, I can have an arbitrary number of words which I want added into an ArrayList object, e.g.:</p>
+
+<pre><code>String s = "a,b,c,d,e,.........";
+</code></pre>
+	99971
+33	3764821	"	453465	Best way to restrict a text field to numbers only?	<p>I'm using the following Javascript to restrict a text field on my website to only accept numerical input, and no other letters or characters. The problem is, it REALLY rejects all other key inputs, like <kbd>ctrl</kbd>-<kbd>A</kbd> to select the text, or even any other browser functions like <kbd>ctrl</kbd>-<kbd>T</kbd> or <kbd>ctrl</kbd>-<kbd>W</kbd> while the text box is selected. Does anyone know of a better script to only allow numerical input, but not block normal commands (that aren't being directly input into the field)? Thanks
+Here is the code I'm using now:</p>
+
+<pre><code>function numbersonly(e, decimal) 
+{
+    var key;
+    var keychar;
+
+    if (window.event) 
+        key = window.event.keyCode;
+    else if (e) 
+        key = e.which;
+    else 
+        return true;
+
+    keychar = String.fromCharCode(key);
+
+    if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27))
+       return true;     
+    else if ((("0123456789").indexOf(keychar) &gt; -1))
+       return true;
+    else if (decimal &amp;&amp; (keychar == "."))
+       return true;        
+    else
+       return false;
+}
+</code></pre>
+
+<p>Edit: None of the solutions provided have solved my problem of allowing commands like <kbd>ctrl</kbd>-<kbd>A</kbd> while the text box is selected. That was the whole point of my asking here, so I have gone back to using my original script. Oh well.</p>
+	99970
+33	3764821	"	453465	Best way to restrict a text field to numbers only?	<p>I'm using the following Javascript to restrict a text field on my website to only accept numerical input, and no other letters or characters. The problem is, it REALLY rejects all other key inputs, like <kbd>ctrl</kbd>-<kbd>A</kbd> to select the text, or even any other browser functions like <kbd>ctrl</kbd>-<kbd>T</kbd> or <kbd>ctrl</kbd>-<kbd>W</kbd> while the text box is selected. Does anyone know of a better script to only allow numerical input, but not block normal commands (that aren't being directly input into the field)? Thanks
+Here is the code I'm using now:</p>
+
+<pre><code>function numbersonly(e, decimal) 
+{
+    var key;
+    var keychar;
+
+    if (window.event) 
+        key = window.event.keyCode;
+    else if (e) 
+        key = e.which;
+    else 
+        return true;
+
+    keychar = String.fromCharCode(key);
+
+    if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27))
+       return true;     
+    else if ((("0123456789").indexOf(keychar) &gt; -1))
+       return true;
+    else if (decimal &amp;&amp; (keychar == "."))
+       return true;        
+    else
+       return false;
+}
+</code></pre>
+
+<p>Edit: None of the solutions provided have solved my problem of allowing commands like <kbd>ctrl</kbd>-<kbd>A</kbd> while the text box is selected. That was the whole point of my asking here, so I have gone back to using my original script. Oh well.</p>
+	99970
+33	3764821	"	453465	Best way to restrict a text field to numbers only?	<p>I'm using the following Javascript to restrict a text field on my website to only accept numerical input, and no other letters or characters. The problem is, it REALLY rejects all other key inputs, like <kbd>ctrl</kbd>-<kbd>A</kbd> to select the text, or even any other browser functions like <kbd>ctrl</kbd>-<kbd>T</kbd> or <kbd>ctrl</kbd>-<kbd>W</kbd> while the text box is selected. Does anyone know of a better script to only allow numerical input, but not block normal commands (that aren't being directly input into the field)? Thanks
+Here is the code I'm using now:</p>
+
+<pre><code>function numbersonly(e, decimal) 
+{
+    var key;
+    var keychar;
+
+    if (window.event) 
+        key = window.event.keyCode;
+    else if (e) 
+        key = e.which;
+    else 
+        return true;
+
+    keychar = String.fromCharCode(key);
+
+    if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27))
+       return true;     
+    else if ((("0123456789").indexOf(keychar) &gt; -1))
+       return true;
+    else if (decimal &amp;&amp; (keychar == "."))
+       return true;        
+    else
+       return false;
+}
+</code></pre>
+
+<p>Edit: None of the solutions provided have solved my problem of allowing commands like <kbd>ctrl</kbd>-<kbd>A</kbd> while the text box is selected. That was the whole point of my asking here, so I have gone back to using my original script. Oh well.</p>
+	99970
+64	9667264	"	1227940	GUI Tool for PostgreSQL	<p>I am new to <strong>PostgreSQL</strong> database I just want to know is there any <strong>GUI Tool</strong> for <strong>PostgreSQL</strong> just like <strong>SQLYog</strong> for <strong>MySql</strong></p>
+
+<p>Thanks in advance</p>
+	99962
+64	9667264	"	1227940	GUI Tool for PostgreSQL	<p>I am new to <strong>PostgreSQL</strong> database I just want to know is there any <strong>GUI Tool</strong> for <strong>PostgreSQL</strong> just like <strong>SQLYog</strong> for <strong>MySql</strong></p>
+
+<p>Thanks in advance</p>
+	99962
+64	9667264	"	1227940	GUI Tool for PostgreSQL	<p>I am new to <strong>PostgreSQL</strong> database I just want to know is there any <strong>GUI Tool</strong> for <strong>PostgreSQL</strong> just like <strong>SQLYog</strong> for <strong>MySql</strong></p>
+
+<p>Thanks in advance</p>
+	99962
+15	1359025	"	13603	CSS Layout - Dynamic width DIV	<p>I have a pretty common layout issue that I have traditionally used a table to solve, but would like some advice on getting it done with CSS. I have 3 images that makeup a 'container'. The left and right images are usually just shown using  tags, and the center image is displayed as a 'background-image" with  my content over it, so that the content appears to be in the container. I'm sure you've seen/used this a million times:</p>
+
+<pre><code>&lt;table width="100" cellpadding="0"&gt;&lt;tr&gt;
+&lt;td width="50"&gt;&lt;img src="myleftimage" /&gt;&lt;/td&gt;
+&lt;td style="background: url('mymiddleimage');"&gt;Content goes here...&lt;/td&gt;
+&lt;td width="50"&gt;&lt;img src="myrightimage" /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+
+<p>The nice thing about this is that the width of the table is always the width of the browser (or parent) and the middle column where the content is dynamically sizes to take up the remaining space between the left/right images.</p>
+
+<p>What I want to is recreate this using CSS, with as little hard coded info as possible. So something like this:</p>
+
+<pre><code>&lt;div style="float:left; width:100%"&gt;
+  &lt;div style="width: 50px;float:left;"&gt;&lt;img src="myleftimage" /&gt;&lt;/div&gt;
+  &lt;div style="background: url('mymiddleimage');float:left;width:???"&gt;Content goes here...&lt;/div&gt;
+  &lt;div style="width: 50px;float:left;"&gt;&lt;img src="myrightimage" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>This works great accept for the middle div -how do I set the width? Right now I can hard-code it to be, say, 92%, etc. But want I want is for it to auto-fill the space. Can it be done using only CSS?</p>
+	99943
+15	1359025	"	13603	CSS Layout - Dynamic width DIV	<p>I have a pretty common layout issue that I have traditionally used a table to solve, but would like some advice on getting it done with CSS. I have 3 images that makeup a 'container'. The left and right images are usually just shown using  tags, and the center image is displayed as a 'background-image" with  my content over it, so that the content appears to be in the container. I'm sure you've seen/used this a million times:</p>
+
+<pre><code>&lt;table width="100" cellpadding="0"&gt;&lt;tr&gt;
+&lt;td width="50"&gt;&lt;img src="myleftimage" /&gt;&lt;/td&gt;
+&lt;td style="background: url('mymiddleimage');"&gt;Content goes here...&lt;/td&gt;
+&lt;td width="50"&gt;&lt;img src="myrightimage" /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+
+<p>The nice thing about this is that the width of the table is always the width of the browser (or parent) and the middle column where the content is dynamically sizes to take up the remaining space between the left/right images.</p>
+
+<p>What I want to is recreate this using CSS, with as little hard coded info as possible. So something like this:</p>
+
+<pre><code>&lt;div style="float:left; width:100%"&gt;
+  &lt;div style="width: 50px;float:left;"&gt;&lt;img src="myleftimage" /&gt;&lt;/div&gt;
+  &lt;div style="background: url('mymiddleimage');float:left;width:???"&gt;Content goes here...&lt;/div&gt;
+  &lt;div style="width: 50px;float:left;"&gt;&lt;img src="myrightimage" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>This works great accept for the middle div -how do I set the width? Right now I can hard-code it to be, say, 92%, etc. But want I want is for it to auto-fill the space. Can it be done using only CSS?</p>
+	99943
+15	1359025	"	13603	CSS Layout - Dynamic width DIV	<p>I have a pretty common layout issue that I have traditionally used a table to solve, but would like some advice on getting it done with CSS. I have 3 images that makeup a 'container'. The left and right images are usually just shown using  tags, and the center image is displayed as a 'background-image" with  my content over it, so that the content appears to be in the container. I'm sure you've seen/used this a million times:</p>
+
+<pre><code>&lt;table width="100" cellpadding="0"&gt;&lt;tr&gt;
+&lt;td width="50"&gt;&lt;img src="myleftimage" /&gt;&lt;/td&gt;
+&lt;td style="background: url('mymiddleimage');"&gt;Content goes here...&lt;/td&gt;
+&lt;td width="50"&gt;&lt;img src="myrightimage" /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+
+<p>The nice thing about this is that the width of the table is always the width of the browser (or parent) and the middle column where the content is dynamically sizes to take up the remaining space between the left/right images.</p>
+
+<p>What I want to is recreate this using CSS, with as little hard coded info as possible. So something like this:</p>
+
+<pre><code>&lt;div style="float:left; width:100%"&gt;
+  &lt;div style="width: 50px;float:left;"&gt;&lt;img src="myleftimage" /&gt;&lt;/div&gt;
+  &lt;div style="background: url('mymiddleimage');float:left;width:???"&gt;Content goes here...&lt;/div&gt;
+  &lt;div style="width: 50px;float:left;"&gt;&lt;img src="myrightimage" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>This works great accept for the middle div -how do I set the width? Right now I can hard-code it to be, say, 92%, etc. But want I want is for it to auto-fill the space. Can it be done using only CSS?</p>
+	99943
+51	5642315	"	40769	Regular Expression to get a string between two strings in Javascript	<p>I have found very similar posts but I can't quite get my regular expression right here.</p>
+
+<p>I am trying to write a regular expression which returns a string which is between two other strings. For example: I want to get the string which resides between the strings "cow" and "milk"</p>
+
+<blockquote>
+  <p>My cow always gives milk</p>
+</blockquote>
+
+<p>would return</p>
+
+<blockquote>
+  <p>"always gives"</p>
+</blockquote>
+
+<p>Here is the expression I have pieced together so far:</p>
+
+<pre><code>(?=cow).*(?=milk)
+</code></pre>
+
+<p>However this returns the string "cow always gives"</p>
+
+<h2>Solution</h2>
+
+<p>I was able to get what I needed using Martinho Fernandes' solution below.  The exact code is:</p>
+
+<pre><code>var test = "My cow always gives milk";
+
+var testRE = test.match("cow(.*)milk");
+alert(testRE[1]);
+</code></pre>
+
+<p>You'll notice that I am alerting the testRE variable as an array.  This is because testRE is returning as an array, for some reason.  The output from:</p>
+
+<blockquote>
+  <p>My cow always gives milk</p>
+</blockquote>
+
+<p>Changes into:</p>
+
+<blockquote>
+  <p>always gives</p>
+</blockquote>
+	99940
+51	5642315	"	40769	Regular Expression to get a string between two strings in Javascript	<p>I have found very similar posts but I can't quite get my regular expression right here.</p>
+
+<p>I am trying to write a regular expression which returns a string which is between two other strings. For example: I want to get the string which resides between the strings "cow" and "milk"</p>
+
+<blockquote>
+  <p>My cow always gives milk</p>
+</blockquote>
+
+<p>would return</p>
+
+<blockquote>
+  <p>"always gives"</p>
+</blockquote>
+
+<p>Here is the expression I have pieced together so far:</p>
+
+<pre><code>(?=cow).*(?=milk)
+</code></pre>
+
+<p>However this returns the string "cow always gives"</p>
+
+<h2>Solution</h2>
+
+<p>I was able to get what I needed using Martinho Fernandes' solution below.  The exact code is:</p>
+
+<pre><code>var test = "My cow always gives milk";
+
+var testRE = test.match("cow(.*)milk");
+alert(testRE[1]);
+</code></pre>
+
+<p>You'll notice that I am alerting the testRE variable as an array.  This is because testRE is returning as an array, for some reason.  The output from:</p>
+
+<blockquote>
+  <p>My cow always gives milk</p>
+</blockquote>
+
+<p>Changes into:</p>
+
+<blockquote>
+  <p>always gives</p>
+</blockquote>
+	99940
+51	5642315	"	40769	Regular Expression to get a string between two strings in Javascript	<p>I have found very similar posts but I can't quite get my regular expression right here.</p>
+
+<p>I am trying to write a regular expression which returns a string which is between two other strings. For example: I want to get the string which resides between the strings "cow" and "milk"</p>
+
+<blockquote>
+  <p>My cow always gives milk</p>
+</blockquote>
+
+<p>would return</p>
+
+<blockquote>
+  <p>"always gives"</p>
+</blockquote>
+
+<p>Here is the expression I have pieced together so far:</p>
+
+<pre><code>(?=cow).*(?=milk)
+</code></pre>
+
+<p>However this returns the string "cow always gives"</p>
+
+<h2>Solution</h2>
+
+<p>I was able to get what I needed using Martinho Fernandes' solution below.  The exact code is:</p>
+
+<pre><code>var test = "My cow always gives milk";
+
+var testRE = test.match("cow(.*)milk");
+alert(testRE[1]);
+</code></pre>
+
+<p>You'll notice that I am alerting the testRE variable as an array.  This is because testRE is returning as an array, for some reason.  The output from:</p>
+
+<blockquote>
+  <p>My cow always gives milk</p>
+</blockquote>
+
+<p>Changes into:</p>
+
+<blockquote>
+  <p>always gives</p>
+</blockquote>
+	99940
+47	2445874	"	207817	"Invalid JSON primitive" in Ajax processing	<p>I am getting an error in an ajax call from jQuery.</p>
+
+<p>Here is my jQuery function:</p>
+
+<pre><code>function DeleteItem(RecordId, UId, XmlName, ItemType, UserProfileId) {
+    var obj = {
+        RecordId: RecordId,
+        UserId: UId,
+        UserProfileId: UserProfileId,
+        ItemType: ItemType,
+        FileName: XmlName
+    };
+    var json = Sys.Serialization.JavaScriptSerializer.serialize(obj);
+
+    $.ajax({
+        type: "POST",
+        url: "EditUserProfile.aspx/DeleteRecord",
+        data: json,
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        async: true,
+        cache: false,
+        success: function(msg) {
+            if (msg.d != null) {
+                RefreshData(ItemType, msg.d);
+            }
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+            alert("error occured during deleting");
+        }
+    });
+}
+</code></pre>
+
+<p>and this is my <code>WebMethod</code>:</p>
+
+<pre class="lang-cs prettyprint-override"><code>[WebMethod]
+public static string DeleteRecord(Int64 RecordId, Int64 UserId, Int64 UserProfileId, string ItemType, string FileName) {
+    try {
+        string FilePath = HttpContext.Current.Server.MapPath(FileName);
+
+        XDocument xmldoc = XDocument.Load(FilePath);
+        XElement Xelm = xmldoc.Element("UserProfile");
+        XElement parentElement = Xelm.XPathSelectElement(ItemType + "/Fields");
+
+        (from BO in parentElement.Descendants("Record")
+         where BO.Element("Id").Attribute("value").Value == RecordId.ToString()
+         select BO).Remove();
+        XDocument xdoc = XDocument.Parse(Xelm.ToString(), LoadOptions.PreserveWhitespace);
+        xdoc.Save(FilePath);
+
+        UserInfoHandler obj = new UserInfoHandler();
+        return obj.GetHTML(UserId, UserProfileId, FileName, ItemType, RecordId, Xelm).ToString();
+    } catch (Exception ex) {
+        HandleException.LogError(ex, "EditUserProfile.aspx", "DeleteRecord");
+    }
+    return "success";
+}
+</code></pre>
+
+<p>Can anybody please tell me what's wrong in my code?</p>
+
+<p>I am getting this error:</p>
+
+<pre><code>{
+    "Message":"Invalid JSON primitive: RecordId.",
+    "StackTrace":"
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializePrimitiveObject()
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.BasicDeserialize(String input, Int32 depthLimit, JavaScriptSerializer serializer)
+       at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+       at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+       at System.Web.Script.Services.RestHandler.GetRawParamsFromPostRequest(HttpContext context, JavaScriptSerializer serializer)
+       at System.Web.Script.Services.RestHandler.GetRawParams(WebServiceMethodData methodData, HttpContext context)
+       at System.Web.Script.Services.RestHandler.ExecuteWebServiceCall(HttpContext context, WebServiceMethodData methodData)",
+    "ExceptionType":"System.ArgumentException"
+}
+</code></pre>
+	99939
+47	2445874	"	207817	"Invalid JSON primitive" in Ajax processing	<p>I am getting an error in an ajax call from jQuery.</p>
+
+<p>Here is my jQuery function:</p>
+
+<pre><code>function DeleteItem(RecordId, UId, XmlName, ItemType, UserProfileId) {
+    var obj = {
+        RecordId: RecordId,
+        UserId: UId,
+        UserProfileId: UserProfileId,
+        ItemType: ItemType,
+        FileName: XmlName
+    };
+    var json = Sys.Serialization.JavaScriptSerializer.serialize(obj);
+
+    $.ajax({
+        type: "POST",
+        url: "EditUserProfile.aspx/DeleteRecord",
+        data: json,
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        async: true,
+        cache: false,
+        success: function(msg) {
+            if (msg.d != null) {
+                RefreshData(ItemType, msg.d);
+            }
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+            alert("error occured during deleting");
+        }
+    });
+}
+</code></pre>
+
+<p>and this is my <code>WebMethod</code>:</p>
+
+<pre class="lang-cs prettyprint-override"><code>[WebMethod]
+public static string DeleteRecord(Int64 RecordId, Int64 UserId, Int64 UserProfileId, string ItemType, string FileName) {
+    try {
+        string FilePath = HttpContext.Current.Server.MapPath(FileName);
+
+        XDocument xmldoc = XDocument.Load(FilePath);
+        XElement Xelm = xmldoc.Element("UserProfile");
+        XElement parentElement = Xelm.XPathSelectElement(ItemType + "/Fields");
+
+        (from BO in parentElement.Descendants("Record")
+         where BO.Element("Id").Attribute("value").Value == RecordId.ToString()
+         select BO).Remove();
+        XDocument xdoc = XDocument.Parse(Xelm.ToString(), LoadOptions.PreserveWhitespace);
+        xdoc.Save(FilePath);
+
+        UserInfoHandler obj = new UserInfoHandler();
+        return obj.GetHTML(UserId, UserProfileId, FileName, ItemType, RecordId, Xelm).ToString();
+    } catch (Exception ex) {
+        HandleException.LogError(ex, "EditUserProfile.aspx", "DeleteRecord");
+    }
+    return "success";
+}
+</code></pre>
+
+<p>Can anybody please tell me what's wrong in my code?</p>
+
+<p>I am getting this error:</p>
+
+<pre><code>{
+    "Message":"Invalid JSON primitive: RecordId.",
+    "StackTrace":"
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializePrimitiveObject()
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.BasicDeserialize(String input, Int32 depthLimit, JavaScriptSerializer serializer)
+       at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+       at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+       at System.Web.Script.Services.RestHandler.GetRawParamsFromPostRequest(HttpContext context, JavaScriptSerializer serializer)
+       at System.Web.Script.Services.RestHandler.GetRawParams(WebServiceMethodData methodData, HttpContext context)
+       at System.Web.Script.Services.RestHandler.ExecuteWebServiceCall(HttpContext context, WebServiceMethodData methodData)",
+    "ExceptionType":"System.ArgumentException"
+}
+</code></pre>
+	99939
+140	22318119	"	1980743	I am getting Failed to load resource: net::ERR_BLOCKED_BY_CLIENT with Google chrome	<p>I am getting white page after running my project but its work with .net Client properly Do I need any settings in the browser?
+and the link will come after the error</p>
+
+<p>Failed to load resource: net::ERR_BLOCKED_BY_CLIENT <a href="http://clkmon.com/adServe/getTag?cid=200093510300000000&amp;pid=CRSRDR&amp;type=inject">http://clkmon.com/adServe/getTag?cid=200093510300000000&amp;pid=CRSRDR&amp;type=inject</a></p>
+
+<p>Failed to load resource: net::ERR_BLOCKED_BY_CLIENT <a href="http://ads.626apps.com/a.php?626ref2=200093510300000000&amp;626Name=Plus-HD-4.9&amp;626ref3=B41A77C1675040A28F7E209964620E5EIE&amp;626ref1=63726f73737269646572">http://ads.626apps.com/a.php?626ref2=200093510300000000&amp;626Name=Plus-HD-4.9&amp;626ref3=B41A77C1675040A28F7E209964620E5EIE&amp;626ref1=63726f73737269646572</a></p>
+	99939
+47	2445874	"	207817	"Invalid JSON primitive" in Ajax processing	<p>I am getting an error in an ajax call from jQuery.</p>
+
+<p>Here is my jQuery function:</p>
+
+<pre><code>function DeleteItem(RecordId, UId, XmlName, ItemType, UserProfileId) {
+    var obj = {
+        RecordId: RecordId,
+        UserId: UId,
+        UserProfileId: UserProfileId,
+        ItemType: ItemType,
+        FileName: XmlName
+    };
+    var json = Sys.Serialization.JavaScriptSerializer.serialize(obj);
+
+    $.ajax({
+        type: "POST",
+        url: "EditUserProfile.aspx/DeleteRecord",
+        data: json,
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        async: true,
+        cache: false,
+        success: function(msg) {
+            if (msg.d != null) {
+                RefreshData(ItemType, msg.d);
+            }
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+            alert("error occured during deleting");
+        }
+    });
+}
+</code></pre>
+
+<p>and this is my <code>WebMethod</code>:</p>
+
+<pre class="lang-cs prettyprint-override"><code>[WebMethod]
+public static string DeleteRecord(Int64 RecordId, Int64 UserId, Int64 UserProfileId, string ItemType, string FileName) {
+    try {
+        string FilePath = HttpContext.Current.Server.MapPath(FileName);
+
+        XDocument xmldoc = XDocument.Load(FilePath);
+        XElement Xelm = xmldoc.Element("UserProfile");
+        XElement parentElement = Xelm.XPathSelectElement(ItemType + "/Fields");
+
+        (from BO in parentElement.Descendants("Record")
+         where BO.Element("Id").Attribute("value").Value == RecordId.ToString()
+         select BO).Remove();
+        XDocument xdoc = XDocument.Parse(Xelm.ToString(), LoadOptions.PreserveWhitespace);
+        xdoc.Save(FilePath);
+
+        UserInfoHandler obj = new UserInfoHandler();
+        return obj.GetHTML(UserId, UserProfileId, FileName, ItemType, RecordId, Xelm).ToString();
+    } catch (Exception ex) {
+        HandleException.LogError(ex, "EditUserProfile.aspx", "DeleteRecord");
+    }
+    return "success";
+}
+</code></pre>
+
+<p>Can anybody please tell me what's wrong in my code?</p>
+
+<p>I am getting this error:</p>
+
+<pre><code>{
+    "Message":"Invalid JSON primitive: RecordId.",
+    "StackTrace":"
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializePrimitiveObject()
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+       at System.Web.Script.Serialization.JavaScriptObjectDeserializer.BasicDeserialize(String input, Int32 depthLimit, JavaScriptSerializer serializer)
+       at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+       at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+       at System.Web.Script.Services.RestHandler.GetRawParamsFromPostRequest(HttpContext context, JavaScriptSerializer serializer)
+       at System.Web.Script.Services.RestHandler.GetRawParams(WebServiceMethodData methodData, HttpContext context)
+       at System.Web.Script.Services.RestHandler.ExecuteWebServiceCall(HttpContext context, WebServiceMethodData methodData)",
+    "ExceptionType":"System.ArgumentException"
+}
+</code></pre>
+	99939
+140	22318119	"	1980743	I am getting Failed to load resource: net::ERR_BLOCKED_BY_CLIENT with Google chrome	<p>I am getting white page after running my project but its work with .net Client properly Do I need any settings in the browser?
+and the link will come after the error</p>
+
+<p>Failed to load resource: net::ERR_BLOCKED_BY_CLIENT <a href="http://clkmon.com/adServe/getTag?cid=200093510300000000&amp;pid=CRSRDR&amp;type=inject">http://clkmon.com/adServe/getTag?cid=200093510300000000&amp;pid=CRSRDR&amp;type=inject</a></p>
+
+<p>Failed to load resource: net::ERR_BLOCKED_BY_CLIENT <a href="http://ads.626apps.com/a.php?626ref2=200093510300000000&amp;626Name=Plus-HD-4.9&amp;626ref3=B41A77C1675040A28F7E209964620E5EIE&amp;626ref1=63726f73737269646572">http://ads.626apps.com/a.php?626ref2=200093510300000000&amp;626Name=Plus-HD-4.9&amp;626ref3=B41A77C1675040A28F7E209964620E5EIE&amp;626ref1=63726f73737269646572</a></p>
+	99939
+140	22318119	"	1980743	I am getting Failed to load resource: net::ERR_BLOCKED_BY_CLIENT with Google chrome	<p>I am getting white page after running my project but its work with .net Client properly Do I need any settings in the browser?
+and the link will come after the error</p>
+
+<p>Failed to load resource: net::ERR_BLOCKED_BY_CLIENT <a href="http://clkmon.com/adServe/getTag?cid=200093510300000000&amp;pid=CRSRDR&amp;type=inject">http://clkmon.com/adServe/getTag?cid=200093510300000000&amp;pid=CRSRDR&amp;type=inject</a></p>
+
+<p>Failed to load resource: net::ERR_BLOCKED_BY_CLIENT <a href="http://ads.626apps.com/a.php?626ref2=200093510300000000&amp;626Name=Plus-HD-4.9&amp;626ref3=B41A77C1675040A28F7E209964620E5EIE&amp;626ref1=63726f73737269646572">http://ads.626apps.com/a.php?626ref2=200093510300000000&amp;626Name=Plus-HD-4.9&amp;626ref3=B41A77C1675040A28F7E209964620E5EIE&amp;626ref1=63726f73737269646572</a></p>
+	99939
+213	17434	roo	716	When should you use 'friend' in C++?	<p>I have been reading through the <a href="http://yosefk.com/c++fqa/">C++ FAQ</a> and was curious about the <a href="http://yosefk.com/c++fqa/friend.html"><code>friend</code></a> declaration. I personally have never used it, however I am interested in exploring the language. </p>
+
+<p>What is a good example of using <code>friend</code>?</p>
+
+<p><strong>Edit:</strong></p>
+
+<p>Reading the FAQ a bit longer I like the idea of the <code>&lt;&lt;</code> <code>&gt;&gt;</code> operator overloading and adding as a friend of those classes. However I am not sure how this doesn't break encapsulation. When can these exceptions stay within the strictness that is OOP?</p>
+	99936
+213	17434	roo	716	When should you use 'friend' in C++?	<p>I have been reading through the <a href="http://yosefk.com/c++fqa/">C++ FAQ</a> and was curious about the <a href="http://yosefk.com/c++fqa/friend.html"><code>friend</code></a> declaration. I personally have never used it, however I am interested in exploring the language. </p>
+
+<p>What is a good example of using <code>friend</code>?</p>
+
+<p><strong>Edit:</strong></p>
+
+<p>Reading the FAQ a bit longer I like the idea of the <code>&lt;&lt;</code> <code>&gt;&gt;</code> operator overloading and adding as a friend of those classes. However I am not sure how this doesn't break encapsulation. When can these exceptions stay within the strictness that is OOP?</p>
+	99936
+213	17434	roo	716	When should you use 'friend' in C++?	<p>I have been reading through the <a href="http://yosefk.com/c++fqa/">C++ FAQ</a> and was curious about the <a href="http://yosefk.com/c++fqa/friend.html"><code>friend</code></a> declaration. I personally have never used it, however I am interested in exploring the language. </p>
+
+<p>What is a good example of using <code>friend</code>?</p>
+
+<p><strong>Edit:</strong></p>
+
+<p>Reading the FAQ a bit longer I like the idea of the <code>&lt;&lt;</code> <code>&gt;&gt;</code> operator overloading and adding as a friend of those classes. However I am not sure how this doesn't break encapsulation. When can these exceptions stay within the strictness that is OOP?</p>
+	99936
+22	7355025	"	622470	Create PDF with Java	<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/3986105/pdf-generation-library-for-java">PDF Generation Library for Java</a><br>
+  <a href="http://stackoverflow.com/questions/6118635">What is the best PDF open source library for Java?</a></p>
+</blockquote>
+
+
+
+<p>I'm working on an invoice program for a local accounting company.
+What is a good way to create a PDF file with Java? Any good library?
+I'm totally new to PDF export (On any language).</p>
+	99928
+22	7355025	"	622470	Create PDF with Java	<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/3986105/pdf-generation-library-for-java">PDF Generation Library for Java</a><br>
+  <a href="http://stackoverflow.com/questions/6118635">What is the best PDF open source library for Java?</a></p>
+</blockquote>
+
+
+
+<p>I'm working on an invoice program for a local accounting company.
+What is a good way to create a PDF file with Java? Any good library?
+I'm totally new to PDF export (On any language).</p>
+	99928
+22	7355025	"	622470	Create PDF with Java	<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://stackoverflow.com/questions/3986105/pdf-generation-library-for-java">PDF Generation Library for Java</a><br>
+  <a href="http://stackoverflow.com/questions/6118635">What is the best PDF open source library for Java?</a></p>
+</blockquote>
+
+
+
+<p>I'm working on an invoice program for a local accounting company.
+What is a good way to create a PDF file with Java? Any good library?
+I'm totally new to PDF export (On any language).</p>
+	99928
+272	3915961	"	241643	How to view hierarchical package structure in Eclipse package explorer	<p>OK here's what I would like: in the Eclipse package explorer, I see the following: (dot represents a clickable arrow that I can use to expand the folder)</p>
+
+<p><ul>
+<li>PROJECT
+<ul><li> Source Folder 
+         <ul><li>Package
+<ul> Class </ul><li>Package.SubPackage<ul>Foo</ul><ul>Bar</ul><li>Package.OtherSubPackage<li>Package.OtherSubPackage.VerySubPackage
+<li>OtherPackage <ul> Foobar </ul><li> OtherPackage.SubPackage
+<ul> Baz</ul></ul></ul></ul></p>
+
+<p>Long story short, I want to have many packages, each with many subpackages, in a source folder (and several source folders, so making more won't solve the problem)--so on the order of a couple hundred packages per source folder--ten to twenty packages each with fifteen subpackages. Therefore, I want the hierarchy to look like this:</p>
+
+<ul>
+<li>PROJECT
+<ul><li> Source Folder 
+         <ul><li>Package
+<ul> Class
+<li>Package.SubPackage
+<ul> Foo</ul>
+<ul>Bar</ul><li>Package.OtherSubPackage<ul><li>Package.OtherSubPackage.VerySubPackage</ul></ul></ul>
+<ul><li>OtherPackage <ul> Foobar
+<li> OtherPackage.SubPackage
+<ul> Baz</ul></ul></ul></ul></ul>
+
+<p>so I can open or close a package and see a list of subpackages instead of having package and subpackage all at the same level in the hierarchy--which again makes far too many packages simultaneously displayed. Note this is <em>not</em> a question about filesystem; the file system works fine as far as I can tell--it is only a question about the <em>visual display</em> in the Eclipse package explorer.</p>
+
+<p>So: is there a way to add levels to the hierarchy? Thanks!! (Eclipse Helios on OS X 10.6)</p>
+	99926
+272	3915961	"	241643	How to view hierarchical package structure in Eclipse package explorer	<p>OK here's what I would like: in the Eclipse package explorer, I see the following: (dot represents a clickable arrow that I can use to expand the folder)</p>
+
+<p><ul>
+<li>PROJECT
+<ul><li> Source Folder 
+         <ul><li>Package
+<ul> Class </ul><li>Package.SubPackage<ul>Foo</ul><ul>Bar</ul><li>Package.OtherSubPackage<li>Package.OtherSubPackage.VerySubPackage
+<li>OtherPackage <ul> Foobar </ul><li> OtherPackage.SubPackage
+<ul> Baz</ul></ul></ul></ul></p>
+
+<p>Long story short, I want to have many packages, each with many subpackages, in a source folder (and several source folders, so making more won't solve the problem)--so on the order of a couple hundred packages per source folder--ten to twenty packages each with fifteen subpackages. Therefore, I want the hierarchy to look like this:</p>
+
+<ul>
+<li>PROJECT
+<ul><li> Source Folder 
+         <ul><li>Package
+<ul> Class
+<li>Package.SubPackage
+<ul> Foo</ul>
+<ul>Bar</ul><li>Package.OtherSubPackage<ul><li>Package.OtherSubPackage.VerySubPackage</ul></ul></ul>
+<ul><li>OtherPackage <ul> Foobar
+<li> OtherPackage.SubPackage
+<ul> Baz</ul></ul></ul></ul></ul>
+
+<p>so I can open or close a package and see a list of subpackages instead of having package and subpackage all at the same level in the hierarchy--which again makes far too many packages simultaneously displayed. Note this is <em>not</em> a question about filesystem; the file system works fine as far as I can tell--it is only a question about the <em>visual display</em> in the Eclipse package explorer.</p>
+
+<p>So: is there a way to add levels to the hierarchy? Thanks!! (Eclipse Helios on OS X 10.6)</p>
+	99926
+272	3915961	"	241643	How to view hierarchical package structure in Eclipse package explorer	<p>OK here's what I would like: in the Eclipse package explorer, I see the following: (dot represents a clickable arrow that I can use to expand the folder)</p>
+
+<p><ul>
+<li>PROJECT
+<ul><li> Source Folder 
+         <ul><li>Package
+<ul> Class </ul><li>Package.SubPackage<ul>Foo</ul><ul>Bar</ul><li>Package.OtherSubPackage<li>Package.OtherSubPackage.VerySubPackage
+<li>OtherPackage <ul> Foobar </ul><li> OtherPackage.SubPackage
+<ul> Baz</ul></ul></ul></ul></p>
+
+<p>Long story short, I want to have many packages, each with many subpackages, in a source folder (and several source folders, so making more won't solve the problem)--so on the order of a couple hundred packages per source folder--ten to twenty packages each with fifteen subpackages. Therefore, I want the hierarchy to look like this:</p>
+
+<ul>
+<li>PROJECT
+<ul><li> Source Folder 
+         <ul><li>Package
+<ul> Class
+<li>Package.SubPackage
+<ul> Foo</ul>
+<ul>Bar</ul><li>Package.OtherSubPackage<ul><li>Package.OtherSubPackage.VerySubPackage</ul></ul></ul>
+<ul><li>OtherPackage <ul> Foobar
+<li> OtherPackage.SubPackage
+<ul> Baz</ul></ul></ul></ul></ul>
+
+<p>so I can open or close a package and see a list of subpackages instead of having package and subpackage all at the same level in the hierarchy--which again makes far too many packages simultaneously displayed. Note this is <em>not</em> a question about filesystem; the file system works fine as far as I can tell--it is only a question about the <em>visual display</em> in the Eclipse package explorer.</p>
+
+<p>So: is there a way to add levels to the hierarchy? Thanks!! (Eclipse Helios on OS X 10.6)</p>
+	99926
+40	136617	Soldarnal	3420	How do I programatically force an onchange event on an input?	<p>How do I programatically force an onchange event on an input?</p>
+
+<p>I've tried something like this:</p>
+
+<pre><code>var code = ele.getAttribute('onchange');
+eval(code);
+</code></pre>
+
+<p>But my end goal is to fire any listener functions, and that doesn't seem to work.  Neither does just updating the 'value' attribute.</p>
+	99925
+40	136617	Soldarnal	3420	How do I programatically force an onchange event on an input?	<p>How do I programatically force an onchange event on an input?</p>
+
+<p>I've tried something like this:</p>
+
+<pre><code>var code = ele.getAttribute('onchange');
+eval(code);
+</code></pre>
+
+<p>But my end goal is to fire any listener functions, and that doesn't seem to work.  Neither does just updating the 'value' attribute.</p>
+	99925
+40	136617	Soldarnal	3420	How do I programatically force an onchange event on an input?	<p>How do I programatically force an onchange event on an input?</p>
+
+<p>I've tried something like this:</p>
+
+<pre><code>var code = ele.getAttribute('onchange');
+eval(code);
+</code></pre>
+
+<p>But my end goal is to fire any listener functions, and that doesn't seem to work.  Neither does just updating the 'value' attribute.</p>
+	99925
+13	6669846	"	841404	CSS Input field text color of inputted text	<p>I have an input field, and the color of the text in it is black. (I'm using jquery.placeholder) Let's say the text in there is "E-Mail"</p>
+
+<p>When you click on this field, the black placeholding text dissapears (thanks to jquery.placeholder).</p>
+
+<p>Any text inputted into this field, I want it to turn red, and when you deselect this field, I want it to stay red.</p>
+
+<p>At the moment, the text saying "E-Mail" is black, and anything I type into is red, which is great, but as soon as i deselect, it goes back to black. Can anyone help me? I want the text to stay red, even after it's deselected. Here is my code</p>
+
+<pre><code>textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+input, select, textarea{
+    color: #000;
+}
+</code></pre>
+
+<p>Thankyou!</p>
+	99920
+13	6669846	"	841404	CSS Input field text color of inputted text	<p>I have an input field, and the color of the text in it is black. (I'm using jquery.placeholder) Let's say the text in there is "E-Mail"</p>
+
+<p>When you click on this field, the black placeholding text dissapears (thanks to jquery.placeholder).</p>
+
+<p>Any text inputted into this field, I want it to turn red, and when you deselect this field, I want it to stay red.</p>
+
+<p>At the moment, the text saying "E-Mail" is black, and anything I type into is red, which is great, but as soon as i deselect, it goes back to black. Can anyone help me? I want the text to stay red, even after it's deselected. Here is my code</p>
+
+<pre><code>textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+input, select, textarea{
+    color: #000;
+}
+</code></pre>
+
+<p>Thankyou!</p>
+	99920
+13	6669846	"	841404	CSS Input field text color of inputted text	<p>I have an input field, and the color of the text in it is black. (I'm using jquery.placeholder) Let's say the text in there is "E-Mail"</p>
+
+<p>When you click on this field, the black placeholding text dissapears (thanks to jquery.placeholder).</p>
+
+<p>Any text inputted into this field, I want it to turn red, and when you deselect this field, I want it to stay red.</p>
+
+<p>At the moment, the text saying "E-Mail" is black, and anything I type into is red, which is great, but as soon as i deselect, it goes back to black. Can anyone help me? I want the text to stay red, even after it's deselected. Here is my code</p>
+
+<pre><code>textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+input, select, textarea{
+    color: #000;
+}
+</code></pre>
+
+<p>Thankyou!</p>
+	99920
+11	14648167	"	1958138	How to configure welcome file list in web.xml .	<p>I have this in my web.xml document. I am trying to have a welcome list so I dont need to type the path for the home page anymore. But everytime a clicked the application in my tomcat page it displays The requested resource is not available.</p>
+
+<pre><code>&lt;listener&gt;
+    &lt;listener-class&gt;web.Init&lt;/listener-class&gt;
+&lt;/listener&gt;
+
+&lt;welcome-file-list&gt;
+    &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;
+&lt;/welcome-file-list&gt;
+
+&lt;servlet&gt;
+    &lt;servlet-name&gt;index&lt;/servlet-name&gt;
+    &lt;servlet-class&gt;web.IndexServlet&lt;/servlet-class&gt;
+&lt;/servlet&gt;
+
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;index&lt;/servlet-name&gt;
+    &lt;url-pattern&gt;/index&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+</code></pre>
+
+<p>My servlet for the jsp page </p>
+
+<pre><code>package web;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+public class IndexServlet extends HttpServlet
+{
+    private Logger logger = Logger.getLogger(this.getClass());
+    private RequestDispatcher jsp;
+
+    public void init(ServletConfig config) throws ServletException
+    {
+        ServletContext context = config.getServletContext();
+        jsp = context.getRequestDispatcher("/WEB-INF/jsp/index.jsp");
+    }
+
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+    {
+        logger.debug("doGet()");
+        jsp.forward(req, resp); 
+    }
+}
+</code></pre>
+
+<p>Why is that it is still not working?I still need to type the /index in my url...How to do this correctly?</p>
+	99912
+11	14648167	"	1958138	How to configure welcome file list in web.xml .	<p>I have this in my web.xml document. I am trying to have a welcome list so I dont need to type the path for the home page anymore. But everytime a clicked the application in my tomcat page it displays The requested resource is not available.</p>
+
+<pre><code>&lt;listener&gt;
+    &lt;listener-class&gt;web.Init&lt;/listener-class&gt;
+&lt;/listener&gt;
+
+&lt;welcome-file-list&gt;
+    &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;
+&lt;/welcome-file-list&gt;
+
+&lt;servlet&gt;
+    &lt;servlet-name&gt;index&lt;/servlet-name&gt;
+    &lt;servlet-class&gt;web.IndexServlet&lt;/servlet-class&gt;
+&lt;/servlet&gt;
+
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;index&lt;/servlet-name&gt;
+    &lt;url-pattern&gt;/index&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+</code></pre>
+
+<p>My servlet for the jsp page </p>
+
+<pre><code>package web;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+public class IndexServlet extends HttpServlet
+{
+    private Logger logger = Logger.getLogger(this.getClass());
+    private RequestDispatcher jsp;
+
+    public void init(ServletConfig config) throws ServletException
+    {
+        ServletContext context = config.getServletContext();
+        jsp = context.getRequestDispatcher("/WEB-INF/jsp/index.jsp");
+    }
+
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+    {
+        logger.debug("doGet()");
+        jsp.forward(req, resp); 
+    }
+}
+</code></pre>
+
+<p>Why is that it is still not working?I still need to type the /index in my url...How to do this correctly?</p>
+	99912
+11	14648167	"	1958138	How to configure welcome file list in web.xml .	<p>I have this in my web.xml document. I am trying to have a welcome list so I dont need to type the path for the home page anymore. But everytime a clicked the application in my tomcat page it displays The requested resource is not available.</p>
+
+<pre><code>&lt;listener&gt;
+    &lt;listener-class&gt;web.Init&lt;/listener-class&gt;
+&lt;/listener&gt;
+
+&lt;welcome-file-list&gt;
+    &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;
+&lt;/welcome-file-list&gt;
+
+&lt;servlet&gt;
+    &lt;servlet-name&gt;index&lt;/servlet-name&gt;
+    &lt;servlet-class&gt;web.IndexServlet&lt;/servlet-class&gt;
+&lt;/servlet&gt;
+
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;index&lt;/servlet-name&gt;
+    &lt;url-pattern&gt;/index&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+</code></pre>
+
+<p>My servlet for the jsp page </p>
+
+<pre><code>package web;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+public class IndexServlet extends HttpServlet
+{
+    private Logger logger = Logger.getLogger(this.getClass());
+    private RequestDispatcher jsp;
+
+    public void init(ServletConfig config) throws ServletException
+    {
+        ServletContext context = config.getServletContext();
+        jsp = context.getRequestDispatcher("/WEB-INF/jsp/index.jsp");
+    }
+
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+    {
+        logger.debug("doGet()");
+        jsp.forward(req, resp); 
+    }
+}
+</code></pre>
+
+<p>Why is that it is still not working?I still need to type the /index in my url...How to do this correctly?</p>
+	99912
+235	1516876	"	173197	When to use ref vs out	<p>Someone asked me the other day when they should use the parameter keyword <code>out</code> instead of <code>ref</code>. While I (I think) understand the difference between the <code>ref</code> and <code>out</code> keywords (that has been <a href="http://stackoverflow.com/questions/388464/c-whats-the-difference-between-the-ref-and-out-keywords">asked before</a>) and the best explanation seems to be that <code>ref</code> == <code>in</code> and <code>out</code>, what are some (hypothetical or code) examples where I should always use <code>out</code> and not <code>ref</code>. </p>
+
+<p>Since <code>ref</code> is more general, why do you ever want to use <code>out</code>? Is it just syntactic sugar?</p>
+	99909
+235	1516876	"	173197	When to use ref vs out	<p>Someone asked me the other day when they should use the parameter keyword <code>out</code> instead of <code>ref</code>. While I (I think) understand the difference between the <code>ref</code> and <code>out</code> keywords (that has been <a href="http://stackoverflow.com/questions/388464/c-whats-the-difference-between-the-ref-and-out-keywords">asked before</a>) and the best explanation seems to be that <code>ref</code> == <code>in</code> and <code>out</code>, what are some (hypothetical or code) examples where I should always use <code>out</code> and not <code>ref</code>. </p>
+
+<p>Since <code>ref</code> is more general, why do you ever want to use <code>out</code>? Is it just syntactic sugar?</p>
+	99909
+235	1516876	"	173197	When to use ref vs out	<p>Someone asked me the other day when they should use the parameter keyword <code>out</code> instead of <code>ref</code>. While I (I think) understand the difference between the <code>ref</code> and <code>out</code> keywords (that has been <a href="http://stackoverflow.com/questions/388464/c-whats-the-difference-between-the-ref-and-out-keywords">asked before</a>) and the best explanation seems to be that <code>ref</code> == <code>in</code> and <code>out</code>, what are some (hypothetical or code) examples where I should always use <code>out</code> and not <code>ref</code>. </p>
+
+<p>Since <code>ref</code> is more general, why do you ever want to use <code>out</code>? Is it just syntactic sugar?</p>
+	99909
+13	1207939	user80978	"	Adding an onclick event to a table row	<p>Hey!
+I'm trying to add an onclick event to a table row through Javascript.</p>
+
+<pre><code>function addRowHandlers() {
+    var table = document.getElementById("tableId");
+    var rows = table.getElementsByTagName("tr");
+    for (i = 1; i &lt; rows.length; i++) {
+        row = table.rows[i];
+        row.onclick = function(){
+                          var cell = this.getElementsByTagName("td")[0];
+                          var id = cell.innerHTML;
+                          alert("id:" + id);
+                      };
+    }
+}
+</code></pre>
+
+<p>This works as expected in Firefox, but in Internet Explorer (IE8) I can't access the table cells. I believe that is somehow related to the fact that "this" in the onclick function is identified as "Window" instead of "Table" (or something like that).</p>
+
+<p>If I could access the the current row I could perform a getElementById in the onclick function by I can't find a way to do that. Any suggestions?</p>
+
+<p>Thanks!</p>
+	99904
+13	1207939	user80978	"	Adding an onclick event to a table row	<p>Hey!
+I'm trying to add an onclick event to a table row through Javascript.</p>
+
+<pre><code>function addRowHandlers() {
+    var table = document.getElementById("tableId");
+    var rows = table.getElementsByTagName("tr");
+    for (i = 1; i &lt; rows.length; i++) {
+        row = table.rows[i];
+        row.onclick = function(){
+                          var cell = this.getElementsByTagName("td")[0];
+                          var id = cell.innerHTML;
+                          alert("id:" + id);
+                      };
+    }
+}
+</code></pre>
+
+<p>This works as expected in Firefox, but in Internet Explorer (IE8) I can't access the table cells. I believe that is somehow related to the fact that "this" in the onclick function is identified as "Window" instead of "Table" (or something like that).</p>
+
+<p>If I could access the the current row I could perform a getElementById in the onclick function by I can't find a way to do that. Any suggestions?</p>
+
+<p>Thanks!</p>
+	99904
+13	1207939	user80978	"	Adding an onclick event to a table row	<p>Hey!
+I'm trying to add an onclick event to a table row through Javascript.</p>
+
+<pre><code>function addRowHandlers() {
+    var table = document.getElementById("tableId");
+    var rows = table.getElementsByTagName("tr");
+    for (i = 1; i &lt; rows.length; i++) {
+        row = table.rows[i];
+        row.onclick = function(){
+                          var cell = this.getElementsByTagName("td")[0];
+                          var id = cell.innerHTML;
+                          alert("id:" + id);
+                      };
+    }
+}
+</code></pre>
+
+<p>This works as expected in Firefox, but in Internet Explorer (IE8) I can't access the table cells. I believe that is somehow related to the fact that "this" in the onclick function is identified as "Window" instead of "Table" (or something like that).</p>
+
+<p>If I could access the the current row I could perform a getElementById in the onclick function by I can't find a way to do that. Any suggestions?</p>
+
+<p>Thanks!</p>
+	99904
+19	54989	dmo	1807	Change windows hostname from command line	<p>Is it possible to change the hostname in Windows 2003 from the command line with out-of-the-box tools?</p>
+	99902
+19	54989	dmo	1807	Change windows hostname from command line	<p>Is it possible to change the hostname in Windows 2003 from the command line with out-of-the-box tools?</p>
+	99902
+19	54989	dmo	1807	Change windows hostname from command line	<p>Is it possible to change the hostname in Windows 2003 from the command line with out-of-the-box tools?</p>
+	99902
+170	1024435	"	48387	How to fix python indentation	<p>I have some python code that have inconsistent indentation, there is a lot of mixture of tabs and spaces to make the matter even worse even space indentation is not preserved.</p>
+
+<p>The code works as expected but it's difficult to maintain.</p>
+
+<p>How can I fix the indentation (like "html tidy" but for python) without breaking the code?</p>
+	99896
+170	1024435	"	48387	How to fix python indentation	<p>I have some python code that have inconsistent indentation, there is a lot of mixture of tabs and spaces to make the matter even worse even space indentation is not preserved.</p>
+
+<p>The code works as expected but it's difficult to maintain.</p>
+
+<p>How can I fix the indentation (like "html tidy" but for python) without breaking the code?</p>
+	99896
+170	1024435	"	48387	How to fix python indentation	<p>I have some python code that have inconsistent indentation, there is a lot of mixture of tabs and spaces to make the matter even worse even space indentation is not preserved.</p>
+
+<p>The code works as expected but it's difficult to maintain.</p>
+
+<p>How can I fix the indentation (like "html tidy" but for python) without breaking the code?</p>
+	99896
+24	9083408	"	892593	Fatal error: Can't open and lock privilege tables: Table 'mysql.host' doesn't exist	<p>I am on a server that has  afresh install on RHEL 5.  I was able to install Apache and PHP just fine., but I am having serious trouble with my MySQL installation.  I tried the following:</p>
+
+<pre><code>yum install mysql-server mysql 
+</code></pre>
+
+<p>And didn't get any errors or conflicts.  Then I tried to start mysql with the following commands:</p>
+
+<pre><code>chkconfig --levels 235 mysqld on
+service mysqld start
+</code></pre>
+
+<p>And get <code>Timeout error occurred trying to start MySQL Daemon.</code>  </p>
+
+<p>I checked my logs and see this error:</p>
+
+<pre><code>[ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.host' doesn't exist
+</code></pre>
+
+<p>I'm not sure where to go from here.</p>
+
+<p>For reference I am using RHEL 5 and installed the latest versions of PHP 5 and Apache.</p>
+	99890
+24	9083408	"	892593	Fatal error: Can't open and lock privilege tables: Table 'mysql.host' doesn't exist	<p>I am on a server that has  afresh install on RHEL 5.  I was able to install Apache and PHP just fine., but I am having serious trouble with my MySQL installation.  I tried the following:</p>
+
+<pre><code>yum install mysql-server mysql 
+</code></pre>
+
+<p>And didn't get any errors or conflicts.  Then I tried to start mysql with the following commands:</p>
+
+<pre><code>chkconfig --levels 235 mysqld on
+service mysqld start
+</code></pre>
+
+<p>And get <code>Timeout error occurred trying to start MySQL Daemon.</code>  </p>
+
+<p>I checked my logs and see this error:</p>
+
+<pre><code>[ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.host' doesn't exist
+</code></pre>
+
+<p>I'm not sure where to go from here.</p>
+
+<p>For reference I am using RHEL 5 and installed the latest versions of PHP 5 and Apache.</p>
+	99890
+24	9083408	"	892593	Fatal error: Can't open and lock privilege tables: Table 'mysql.host' doesn't exist	<p>I am on a server that has  afresh install on RHEL 5.  I was able to install Apache and PHP just fine., but I am having serious trouble with my MySQL installation.  I tried the following:</p>
+
+<pre><code>yum install mysql-server mysql 
+</code></pre>
+
+<p>And didn't get any errors or conflicts.  Then I tried to start mysql with the following commands:</p>
+
+<pre><code>chkconfig --levels 235 mysqld on
+service mysqld start
+</code></pre>
+
+<p>And get <code>Timeout error occurred trying to start MySQL Daemon.</code>  </p>
+
+<p>I checked my logs and see this error:</p>
+
+<pre><code>[ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.host' doesn't exist
+</code></pre>
+
+<p>I'm not sure where to go from here.</p>
+
+<p>For reference I am using RHEL 5 and installed the latest versions of PHP 5 and Apache.</p>
+	99890
+89	24030348	"	3051809	How to create a button programmatically?	<p>How do I programmatically create graphical elements (like a <code>UIButton</code>) in Swift? I tried to create and add button into a view, but wasn't able to.</p>
+	99889
+89	24030348	"	3051809	How to create a button programmatically?	<p>How do I programmatically create graphical elements (like a <code>UIButton</code>) in Swift? I tried to create and add button into a view, but wasn't able to.</p>
+	99889
+89	24030348	"	3051809	How to create a button programmatically?	<p>How do I programmatically create graphical elements (like a <code>UIButton</code>) in Swift? I tried to create and add button into a view, but wasn't able to.</p>
+	99889
+43	18701282	"	2759697	What is content-type and datatype in an AJAX request?	<p>What is content-type and datatype in a POST request? Suppose I have this:</p>
+
+<pre><code>$.ajax({
+    type : "POST",
+    url : /v1/user,
+    datatype : "application/json",
+    contentType: "text/plain",
+    success : function() {
+
+    },
+    error : function(error) {
+
+    },
+</code></pre>
+
+<p>Is <code>contentType</code> what we send? So what we send in the example above is JSON and what we receive is plain text? I don't really understand.</p>
+	99888
+43	18701282	"	2759697	What is content-type and datatype in an AJAX request?	<p>What is content-type and datatype in a POST request? Suppose I have this:</p>
+
+<pre><code>$.ajax({
+    type : "POST",
+    url : /v1/user,
+    datatype : "application/json",
+    contentType: "text/plain",
+    success : function() {
+
+    },
+    error : function(error) {
+
+    },
+</code></pre>
+
+<p>Is <code>contentType</code> what we send? So what we send in the example above is JSON and what we receive is plain text? I don't really understand.</p>
+	99888
+43	18701282	"	2759697	What is content-type and datatype in an AJAX request?	<p>What is content-type and datatype in a POST request? Suppose I have this:</p>
+
+<pre><code>$.ajax({
+    type : "POST",
+    url : /v1/user,
+    datatype : "application/json",
+    contentType: "text/plain",
+    success : function() {
+
+    },
+    error : function(error) {
+
+    },
+</code></pre>
+
+<p>Is <code>contentType</code> what we send? So what we send in the example above is JSON and what we receive is plain text? I don't really understand.</p>
+	99888
+29	4654878	"	446366	How to play YouTube video in my Android application?	<p>How do I play <code>YouTube</code> videos in my application? I want to <code>play video</code> by streaming it directly from YouTube without downloading. Also, while playing videos, I want provide menu options. I don't want to play video using default intent. How can I do this?</p>
+	99876
+29	4654878	"	446366	How to play YouTube video in my Android application?	<p>How do I play <code>YouTube</code> videos in my application? I want to <code>play video</code> by streaming it directly from YouTube without downloading. Also, while playing videos, I want provide menu options. I don't want to play video using default intent. How can I do this?</p>
+	99876
+29	4654878	"	446366	How to play YouTube video in my Android application?	<p>How do I play <code>YouTube</code> videos in my application? I want to <code>play video</code> by streaming it directly from YouTube without downloading. Also, while playing videos, I want provide menu options. I don't want to play video using default intent. How can I do this?</p>
+	99876
+53	2506844	"	292246	How do I make a transparent border with CSS?	<p>I have an Li Style as follows:</p>
+
+<pre><code>li{
+    display:inline-block;
+    padding:5px;
+    border:1px solid none;
+}
+li:hover{
+    border:1px solid #FC0;
+}
+</code></pre>
+
+<p>I need that when I hover over the Li the border appears without making the li's shift around. Is it possible to have a 'border' that's not visible?</p>
+	99874
+53	2506844	"	292246	How do I make a transparent border with CSS?	<p>I have an Li Style as follows:</p>
+
+<pre><code>li{
+    display:inline-block;
+    padding:5px;
+    border:1px solid none;
+}
+li:hover{
+    border:1px solid #FC0;
+}
+</code></pre>
+
+<p>I need that when I hover over the Li the border appears without making the li's shift around. Is it possible to have a 'border' that's not visible?</p>
+	99874
+53	2506844	"	292246	How do I make a transparent border with CSS?	<p>I have an Li Style as follows:</p>
+
+<pre><code>li{
+    display:inline-block;
+    padding:5px;
+    border:1px solid none;
+}
+li:hover{
+    border:1px solid #FC0;
+}
+</code></pre>
+
+<p>I need that when I hover over the Li the border appears without making the li's shift around. Is it possible to have a 'border' that's not visible?</p>
+	99874
+51	560575	Mainstay	56940	ASP.NET MVC How to pass JSON object from View to Controller as Parameter	<p>I have a complex JSON object which is sent to the View without any issues (as shown below) but I cannot work out how Serialize this data back to a .NET object when it is passed back to the controller through an AJAX call. Details of the various parts are below.</p>
+
+<pre><code>   var ObjectA = {
+        "Name": 1,
+        "Starting": new Date(1221644506800),
+
+        "Timeline": [
+            {
+                "StartTime": new Date(1221644506800),
+                "GoesFor": 200
+
+            }
+            ,
+            {
+                "StartTime": new Date(1221644506800),
+                "GoesFor": 100
+
+            }
+
+        ]
+    };
+</code></pre>
+
+<p>I am not sure how this object can be passed to a Controller Method, I have this method below where the Timelines object mirrors the above JS object using Properties.</p>
+
+<pre><code>public JsonResult Save(Timelines person)
+</code></pre>
+
+<p>The jQuery I am using is:</p>
+
+<pre><code>        var encoded = $.toJSON(SessionSchedule);
+
+        $.ajax({
+            url: "/Timeline/Save",
+            type: "POST",
+            dataType: 'json',
+            data: encoded,
+            contentType: "application/json; charset=utf-8",
+            beforeSend: function() { $("#saveStatus").html("Saving").show(); },
+            success: function(result) {
+                alert(result.Result);
+                $("#saveStatus").html(result.Result).show();
+            }
+        });
+</code></pre>
+
+<p>I have seen this question which is similar, but not quite the same as I am not using a forms to manipulate the data.
+<a href="http://stackoverflow.com/questions/267707/how-to-pass-complex-type-using-json-to-asp-net-mvc-controller">http://stackoverflow.com/questions/267707/how-to-pass-complex-type-using-json-to-asp-net-mvc-controller</a></p>
+
+<p>I have also seen references to using a 'JsonFilter' to manually deserialize the JSON, but was wondering if there is a way to do it nativly though ASP.NET MVC? Or what are the best practices for passing data in this way?</p>
+	99872
+51	560575	Mainstay	56940	ASP.NET MVC How to pass JSON object from View to Controller as Parameter	<p>I have a complex JSON object which is sent to the View without any issues (as shown below) but I cannot work out how Serialize this data back to a .NET object when it is passed back to the controller through an AJAX call. Details of the various parts are below.</p>
+
+<pre><code>   var ObjectA = {
+        "Name": 1,
+        "Starting": new Date(1221644506800),
+
+        "Timeline": [
+            {
+                "StartTime": new Date(1221644506800),
+                "GoesFor": 200
+
+            }
+            ,
+            {
+                "StartTime": new Date(1221644506800),
+                "GoesFor": 100
+
+            }
+
+        ]
+    };
+</code></pre>
+
+<p>I am not sure how this object can be passed to a Controller Method, I have this method below where the Timelines object mirrors the above JS object using Properties.</p>
+
+<pre><code>public JsonResult Save(Timelines person)
+</code></pre>
+
+<p>The jQuery I am using is:</p>
+
+<pre><code>        var encoded = $.toJSON(SessionSchedule);
+
+        $.ajax({
+            url: "/Timeline/Save",
+            type: "POST",
+            dataType: 'json',
+            data: encoded,
+            contentType: "application/json; charset=utf-8",
+            beforeSend: function() { $("#saveStatus").html("Saving").show(); },
+            success: function(result) {
+                alert(result.Result);
+                $("#saveStatus").html(result.Result).show();
+            }
+        });
+</code></pre>
+
+<p>I have seen this question which is similar, but not quite the same as I am not using a forms to manipulate the data.
+<a href="http://stackoverflow.com/questions/267707/how-to-pass-complex-type-using-json-to-asp-net-mvc-controller">http://stackoverflow.com/questions/267707/how-to-pass-complex-type-using-json-to-asp-net-mvc-controller</a></p>
+
+<p>I have also seen references to using a 'JsonFilter' to manually deserialize the JSON, but was wondering if there is a way to do it nativly though ASP.NET MVC? Or what are the best practices for passing data in this way?</p>
+	99872
+51	560575	Mainstay	56940	ASP.NET MVC How to pass JSON object from View to Controller as Parameter	<p>I have a complex JSON object which is sent to the View without any issues (as shown below) but I cannot work out how Serialize this data back to a .NET object when it is passed back to the controller through an AJAX call. Details of the various parts are below.</p>
+
+<pre><code>   var ObjectA = {
+        "Name": 1,
+        "Starting": new Date(1221644506800),
+
+        "Timeline": [
+            {
+                "StartTime": new Date(1221644506800),
+                "GoesFor": 200
+
+            }
+            ,
+            {
+                "StartTime": new Date(1221644506800),
+                "GoesFor": 100
+
+            }
+
+        ]
+    };
+</code></pre>
+
+<p>I am not sure how this object can be passed to a Controller Method, I have this method below where the Timelines object mirrors the above JS object using Properties.</p>
+
+<pre><code>public JsonResult Save(Timelines person)
+</code></pre>
+
+<p>The jQuery I am using is:</p>
+
+<pre><code>        var encoded = $.toJSON(SessionSchedule);
+
+        $.ajax({
+            url: "/Timeline/Save",
+            type: "POST",
+            dataType: 'json',
+            data: encoded,
+            contentType: "application/json; charset=utf-8",
+            beforeSend: function() { $("#saveStatus").html("Saving").show(); },
+            success: function(result) {
+                alert(result.Result);
+                $("#saveStatus").html(result.Result).show();
+            }
+        });
+</code></pre>
+
+<p>I have seen this question which is similar, but not quite the same as I am not using a forms to manipulate the data.
+<a href="http://stackoverflow.com/questions/267707/how-to-pass-complex-type-using-json-to-asp-net-mvc-controller">http://stackoverflow.com/questions/267707/how-to-pass-complex-type-using-json-to-asp-net-mvc-controller</a></p>
+
+<p>I have also seen references to using a 'JsonFilter' to manually deserialize the JSON, but was wondering if there is a way to do it nativly though ASP.NET MVC? Or what are the best practices for passing data in this way?</p>
+	99872
+109	400965	jpm	35478	How to customize the background/border colors of a grouped table view cell?	<p>I would like to customize both the background and the border color of a grouped-style UITableView.</p>
+
+<p>I was able to customize the background color by using the following:</p>
+
+<pre><code>tableView.contentView.backgroundColor = [UIColor greenColor];
+</code></pre>
+
+<p>But the border color is still something I don't know how to change.</p>
+
+<p>How do I customize these two aspects of the grouped-style table view?</p>
+	99870
+109	400965	jpm	35478	How to customize the background/border colors of a grouped table view cell?	<p>I would like to customize both the background and the border color of a grouped-style UITableView.</p>
+
+<p>I was able to customize the background color by using the following:</p>
+
+<pre><code>tableView.contentView.backgroundColor = [UIColor greenColor];
+</code></pre>
+
+<p>But the border color is still something I don't know how to change.</p>
+
+<p>How do I customize these two aspects of the grouped-style table view?</p>
+	99870
+109	400965	jpm	35478	How to customize the background/border colors of a grouped table view cell?	<p>I would like to customize both the background and the border color of a grouped-style UITableView.</p>
+
+<p>I was able to customize the background color by using the following:</p>
+
+<pre><code>tableView.contentView.backgroundColor = [UIColor greenColor];
+</code></pre>
+
+<p>But the border color is still something I don't know how to change.</p>
+
+<p>How do I customize these two aspects of the grouped-style table view?</p>
+	99870
+36	816566	"	82371	How do you get the current project directory from C# code when creating a custom MSBuild task?	<p>Instead of running an external program with its path hardcoded, I would like to get the current Project Dir. I'm calling an external program using a process in the custom task.</p>
+
+<p>How would I do that? AppDomain.CurrentDomain.BaseDirectory just gives me the location of VS 2008.</p>
+	99869
+16	2014069	"	244831	Windows-1252 to UTF-8 encoding	<p>I've copied certain files from a Windows machine to a Linux machine. So all the windows encoded(windows-1252) files need to be converted to UTF-8. The files which are already in UTF-8 should not be changed. I'm planning to use the "recode" utility for that. How can I specify that the "recode" utility should only convert windows-1252 encoded files and not the UTF-8 files. </p>
+
+<p>Example usage of recode: 
+recode windows-1252.. myfile.txt</p>
+
+<p>This would convert myfile.txt from windows-1252 to UTF-8. Before doing this I would like to know if myfile.txt is actually windows-1252 encoded and not UTF-8 encoded. Otherwise, I believe this would corrupt the file. </p>
+	99869
+36	816566	"	82371	How do you get the current project directory from C# code when creating a custom MSBuild task?	<p>Instead of running an external program with its path hardcoded, I would like to get the current Project Dir. I'm calling an external program using a process in the custom task.</p>
+
+<p>How would I do that? AppDomain.CurrentDomain.BaseDirectory just gives me the location of VS 2008.</p>
+	99869
+16	2014069	"	244831	Windows-1252 to UTF-8 encoding	<p>I've copied certain files from a Windows machine to a Linux machine. So all the windows encoded(windows-1252) files need to be converted to UTF-8. The files which are already in UTF-8 should not be changed. I'm planning to use the "recode" utility for that. How can I specify that the "recode" utility should only convert windows-1252 encoded files and not the UTF-8 files. </p>
+
+<p>Example usage of recode: 
+recode windows-1252.. myfile.txt</p>
+
+<p>This would convert myfile.txt from windows-1252 to UTF-8. Before doing this I would like to know if myfile.txt is actually windows-1252 encoded and not UTF-8 encoded. Otherwise, I believe this would corrupt the file. </p>
+	99869
+36	816566	"	82371	How do you get the current project directory from C# code when creating a custom MSBuild task?	<p>Instead of running an external program with its path hardcoded, I would like to get the current Project Dir. I'm calling an external program using a process in the custom task.</p>
+
+<p>How would I do that? AppDomain.CurrentDomain.BaseDirectory just gives me the location of VS 2008.</p>
+	99869
+16	2014069	"	244831	Windows-1252 to UTF-8 encoding	<p>I've copied certain files from a Windows machine to a Linux machine. So all the windows encoded(windows-1252) files need to be converted to UTF-8. The files which are already in UTF-8 should not be changed. I'm planning to use the "recode" utility for that. How can I specify that the "recode" utility should only convert windows-1252 encoded files and not the UTF-8 files. </p>
+
+<p>Example usage of recode: 
+recode windows-1252.. myfile.txt</p>
+
+<p>This would convert myfile.txt from windows-1252 to UTF-8. Before doing this I would like to know if myfile.txt is actually windows-1252 encoded and not UTF-8 encoded. Otherwise, I believe this would corrupt the file. </p>
+	99869
+21	5450047	"	462445	How can I do GUI programming in C?	<p>I want to do Graphics programming in C. I had searched a lot about the compiler that provides a rich set of functions for doing GUI programming in C, but I couldn't find anything.</p>
+
+<p>Basically I want to draw buttons and then accept the choice from the user and take an appropriate action. It would be helpful if you can suggest a C compiler, or a library that I can add to my compiler. I am working on the Windows operating system.</p>
+
+<p>Presently, I am using TURBO C compiler that does not support direct methods for creating buttons. Any help would be appreciated.</p>
+	99868
+21	5450047	"	462445	How can I do GUI programming in C?	<p>I want to do Graphics programming in C. I had searched a lot about the compiler that provides a rich set of functions for doing GUI programming in C, but I couldn't find anything.</p>
+
+<p>Basically I want to draw buttons and then accept the choice from the user and take an appropriate action. It would be helpful if you can suggest a C compiler, or a library that I can add to my compiler. I am working on the Windows operating system.</p>
+
+<p>Presently, I am using TURBO C compiler that does not support direct methods for creating buttons. Any help would be appreciated.</p>
+	99868
+21	5450047	"	462445	How can I do GUI programming in C?	<p>I want to do Graphics programming in C. I had searched a lot about the compiler that provides a rich set of functions for doing GUI programming in C, but I couldn't find anything.</p>
+
+<p>Basically I want to draw buttons and then accept the choice from the user and take an appropriate action. It would be helpful if you can suggest a C compiler, or a library that I can add to my compiler. I am working on the Windows operating system.</p>
+
+<p>Presently, I am using TURBO C compiler that does not support direct methods for creating buttons. Any help would be appreciated.</p>
+	99868
+99	6200056	"	127485	pip broke. how to fix DistributionNotFound error?	<p>Whenever i try to use pip I get an error. For exampple:</p>
+
+<pre><code>$ sudo pip install gevent-websocket
+
+Traceback (most recent call last):  
+File "/usr/local/bin/pip", line 5, in &lt;module&gt;
+from pkg_resources import load_entry_point
+File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 2675, in &lt;module&gt;
+parse_requirements(__requires__), Environment()
+File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 552, in resolve
+raise DistributionNotFound(req)
+pkg_resources.DistributionNotFound: pip==0.8.1
+</code></pre>
+
+<p>I feel tempted to change the value of into pip==0.8.2.. but I dont feel dealing with the consequences of 'hacking' up my installation...
+I'm running python 2.7 and pip is at version 0.8.2.</p>
+	99865

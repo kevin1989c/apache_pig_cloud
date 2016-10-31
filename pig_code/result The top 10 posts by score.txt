@@ -1,0 +1,10 @@
+13926	11227809	"	Why is processing a sorted array faster than an unsorted array?
+9535	927358	"	How do you undo the last commit?
+7688	179123	Laurie Young	Edit an incorrect commit message in Git
+7003	2003505	"	Delete a Git branch both locally and remotely
+6453	477816	Oli	What is the correct JSON content type?
+5792	292357	J. Pablo Fern&#225;ndez	What are the differences between 'git pull' and 'git fetch'?
+5517	111102	e-satis	How do JavaScript closures work?
+5128	1642028	"	What is the name of the "-->" operator?
+4816	503093	venkatachalam	How can I make a page redirect using jQuery?
+4737	79923	matt	What and where are the stack and heap?
